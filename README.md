@@ -21,8 +21,6 @@
   </a>
 </p>
 
-### Badges
-
 <b>My GitHub Stats</b>
 
 <a href="http://www.github.com/zeitiv">
