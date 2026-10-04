@@ -79,9 +79,9 @@ const site = (url: string) => {
   return hostname === "github.com" ? pathname.slice(1) : hostname.replace(/^www\./, "");
 };
 
-/** "08/2024 - Present" -> "2024–now" */
+/** "08/2024 - Present" -> "2024–now", "08/2024 - Paused" -> "2024–paused" */
 const years = (date: string) => {
-  const [from, to] = date.split(/\s*-\s*/).map((part) => (/present/i.test(part) ? "now" : part.slice(-4)));
+  const [from, to] = date.split(/\s*-\s*/).map((part) => (/present/i.test(part) ? "now" : /paused/i.test(part) ? "paused" : part.slice(-4)));
   return from === to ? from : `${from}–${to}`;
 };
 
