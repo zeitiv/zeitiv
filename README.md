@@ -1,44 +1,45 @@
-### Hi, I'm Alex 👋
+<a href="https://zeitiv.dev"><img src="assets/galaxy.svg" alt="My stack as a galaxy: every place I worked or built something is a star, the tools I used there orbit it, signals run along the career spine" width="100%"></a>
 
-Fullstack developer in Zürich. I started at 16 as an apprentice at Swisscom, consulted for a fintech and the federal intelligence service, then built the webshop frontend for a Swiss hosting company. Since 2024 I've been on Amazon's Lens team through Makeen, mostly React and TypeScript with Node and PostgreSQL behind it.
+```ts
+const alex = {
+  role: "fullstack developer",
+  base: "Zürich, CH",
+  now: { team: "Amazon · Lens", via: "Makeen", since: 2024 },
+  stack: ["TypeScript", "React", "Angular", "Node", "PostgreSQL", "AWS"],
+  sideStack: ["Bun", "Astro", "three.js", "FastAPI", "MCP"],
+  homelab: "Mac mini → Docker, Ollama, n8n, Paperless, Qdrant, Traefik",
+  site: "https://zeitiv.dev",
+};
+```
 
-[![zeitiv.dev](https://img.shields.io/badge/zeitiv.dev-CV_&_portfolio-72CCFC?style=flat-square&labelColor=1c1917)](https://zeitiv.dev)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Alexander_Grädel-72CCFC?style=flat-square&logo=linkedin&logoColor=white&labelColor=1c1917)](https://www.linkedin.com/in/alexander-gr%C3%A4del/)
+### ./projects
 
-### What I'm building
+| | what | how |
+|---|---|---|
+| **[Gradus](https://gradus-self.vercel.app)** | Open-source school workspace for Swiss schools | Angular 22 (zoneless, signals) over a FastAPI core that owns roles, rules and data. The AI runs on Swiss-hosted models through 37 MCP tools; every write becomes a proposal in a server-side ledger, shown as a diff, applied only when someone with the right role accepts it. |
+| **[NULLPUNKT](https://edugym-navy.vercel.app)** | Cooperative maths game for the classroom | One Angular 20 app, three surfaces: operator iPads, teacher console, a three.js station on the projector. Server-authoritative rooms over WebSockets (Bun + Elysia): clients send intents, the engine reduces them, each audience gets its own filtered view. CI plays the whole lesson in Playwright. |
+| **[zeitiv.dev](https://zeitiv.dev)** | CV as a website | Astro + three.js. The background is the graph in this README, live: GPU lines and points with custom shaders, a 2D overlay for names, neuron-style firing. Self-hosted: Docker + Nginx, GHCR, Portainer. |
+| **[lustlaune.ch](https://lustlaune.ch)** | Site and server for a rave collective | Astro, MDX, Astro DB. |
 
-**[Gradus](https://gradus-self.vercel.app)** · an open-source workspace for running a Swiss school: registers, seating plans, student support, academic records on the 1 to 6 scale, finance. Its AI assistant runs on Swiss-hosted models through 37 MCP tools and never writes on its own. It proposes, people approve.
-<sub>Angular 22 · FastAPI · Python · Bun · MCP · Vercel</sub>
+### ./work
 
-**[NULLPUNKT](https://edugym-navy.vercel.app)** · a cooperative maths adventure for Zürich 6th-graders preparing for the Gymi exam. Pupils solve tasks on paper, send results from iPads, and a three.js station on the classroom projector comes back to life. No pupil accounts.
-<sub>Angular 20 · Bun + Elysia WebSockets · three.js · Supabase · Playwright</sub>
+```diff
++ 2024–now   Amazon · Lens (via Makeen)   React, tRPC, Prisma, PostgreSQL, Redis, AWS
+              live progress over WebSockets, a picklist service across PostgreSQL + Salesforce,
+              an OpenStreetMap/ArcGIS risk check, Japanese localisation, Cypress → TypeScript,
+              React Router v7 + React Compiler
+  2023–2024  Kreativmedia                 Angular 17 webshop with signals, API design with the backend
+  2022       Cleo (consulting)            React → Next.js, automated onboarding, E2E in GitHub Actions
+  2016–2021  Swisscom                     apprenticeship, then Hubble: cloud billing frontend
+```
 
-**[zeitiv.dev](https://zeitiv.dev)** · my CV as a website, with my actual stack drawn as a galaxy in the background. Self-hosted: Docker + Nginx, deployed through GHCR and Portainer.
-<sub>Astro · three.js · UnoCSS · Bun</sub>
+### ./stack.galaxy
 
-**[LustLaune](https://lustlaune.ch)** · a rave collective. I look after its website and server.
-<sub>Astro · Astro DB · MDX</sub>
+The image at the top is generated, not drawn. [`scripts/graph.ts`](scripts/graph.ts) builds the same graph as the background of zeitiv.dev from [`data/cv.json`](data/cv.json): every place is a star, every tool orbits the newest place that used it, heavier tools orbit closer, and shared tools and ecosystem pairs link the stars. [`scripts/galaxy.ts`](scripts/galaxy.ts) lays it out and writes plain SVG with SMIL animation (Kepler-ish orbit speeds, seeded so it only changes when the CV does), because a README strips scripts. A [workflow](.github/workflows/galaxy.yml) re-syncs the CV and redraws it every night.
 
-### At work
+```sh
+bun scripts/sync-cv.ts ../cv/src/content/cv/cv.json   # or CV_TOKEN=… to pull from zeitiv/cv
+bun scripts/galaxy.ts                                 # → assets/galaxy.svg
+```
 
-- 🏢 Lens at Amazon: features end to end on AWS, from WebSocket progress updates and server-side pagination to a geospatial risk check on OpenStreetMap + ArcGIS and Japanese localisation
-- 🧪 Moved the Cypress E2E suite to TypeScript and helped migrate to React Router v7 and the React Compiler
-- 🛒 Before that: Angular 17 webshop with signals at Kreativmedia, and Hubble, Swisscom's cloud billing frontend
-
-### Tools I reach for
-
-![TypeScript](https://img.shields.io/badge/TypeScript-1c1917?style=flat-square&logo=typescript)
-![React](https://img.shields.io/badge/React-1c1917?style=flat-square&logo=react)
-![Angular](https://img.shields.io/badge/Angular-1c1917?style=flat-square&logo=angular)
-![Astro](https://img.shields.io/badge/Astro-1c1917?style=flat-square&logo=astro)
-![Node.js](https://img.shields.io/badge/Node.js-1c1917?style=flat-square&logo=nodedotjs)
-![Bun](https://img.shields.io/badge/Bun-1c1917?style=flat-square&logo=bun)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1c1917?style=flat-square&logo=postgresql)
-![Python](https://img.shields.io/badge/Python-1c1917?style=flat-square&logo=python)
-![AWS](https://img.shields.io/badge/AWS-1c1917?style=flat-square&logo=amazonwebservices)
-![Docker](https://img.shields.io/badge/Docker-1c1917?style=flat-square&logo=docker)
-![three.js](https://img.shields.io/badge/three.js-1c1917?style=flat-square&logo=threedotjs)
-
-### Off the clock
-
-A Mac mini at home runs local LLMs, n8n and Paperless. My notes live in SilverBullet.
+<sub>[zeitiv.dev](https://zeitiv.dev) · [LinkedIn](https://www.linkedin.com/in/alexander-gr%C3%A4del/)</sub>

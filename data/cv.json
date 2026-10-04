@@ -1,0 +1,417 @@
+{
+  "experience": [
+    {
+      "company": "Makeen AG",
+      "position": "Senior Fullstack Developer",
+      "date": "08/2024 - Present",
+      "technologies": [],
+      "subItems": [
+        {
+          "company": "Amazon",
+          "position": "Fullstack Developer",
+          "date": "08/2024 - Present",
+          "technologies": [
+            {
+              "label": "React"
+            },
+            {
+              "label": "TypeScript"
+            },
+            {
+              "label": "Node.js"
+            },
+            {
+              "label": "AWS"
+            },
+            {
+              "label": "PostgreSQL"
+            },
+            {
+              "label": "Prisma"
+            },
+            {
+              "label": "Cypress"
+            },
+            {
+              "label": "React Router"
+            },
+            {
+              "label": "Redis"
+            },
+            {
+              "label": "tRPC"
+            },
+            {
+              "label": "ArcGIS/ESRI"
+            },
+            {
+              "label": "Zod"
+            },
+            {
+              "label": "WebSockets"
+            },
+            {
+              "label": "Salesforce"
+            },
+            {
+              "label": "OpenStreetMap"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Kreativmedia GmbH",
+      "position": "Frontend Developer",
+      "date": "03/2023 - 04/2024",
+      "technologies": [
+        {
+          "label": "Angular"
+        },
+        {
+          "label": "Angular Material"
+        },
+        {
+          "label": "Tailwind"
+        },
+        {
+          "label": "SCSS"
+        },
+        {
+          "label": "OpenAPI (Elements)"
+        },
+        {
+          "label": "Docker"
+        },
+        {
+          "label": "GitHub Actions"
+        }
+      ],
+      "subItems": []
+    },
+    {
+      "company": "Cleo AG",
+      "position": "Software Developer",
+      "date": "01/2022 - 12/2022",
+      "technologies": [],
+      "subItems": [
+        {
+          "company": "NU Technology AG",
+          "position": "Software Developer",
+          "date": "10/2022 - 12/2022",
+          "technologies": [
+            {
+              "label": "NextJS"
+            },
+            {
+              "label": "React"
+            },
+            {
+              "label": "Cypress"
+            },
+            {
+              "label": "Playwright"
+            },
+            {
+              "label": "Typescript"
+            },
+            {
+              "label": "GitHub Actions"
+            }
+          ]
+        },
+        {
+          "company": "Nachrichtendienst des Bundes",
+          "position": "Software Developer",
+          "date": "05/2022 - 09/2022",
+          "technologies": []
+        },
+        {
+          "company": "NU Technology AG",
+          "position": "Software Developer",
+          "date": "01/2022 - 04/2022",
+          "technologies": [
+            {
+              "label": "React"
+            },
+            {
+              "label": "Typescript"
+            },
+            {
+              "label": "Tailwind"
+            },
+            {
+              "label": "Cypress"
+            },
+            {
+              "label": "GitHub"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Swisscom AG",
+      "position": "DevOps Engineer (Frontend)",
+      "date": "08/2020 - 10/2021",
+      "technologies": [
+        {
+          "label": "Angular"
+        },
+        {
+          "label": "Angular Material"
+        },
+        {
+          "label": "Typescript"
+        },
+        {
+          "label": "SASS"
+        },
+        {
+          "label": "Bitbucket"
+        }
+      ],
+      "subItems": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "Swisscom AG / BBW",
+      "studyType": "Application Developer EFZ",
+      "date": "08/2016 - 07/2020",
+      "technologies": [
+        {
+          "label": "Angular"
+        },
+        {
+          "label": "NodeJS"
+        },
+        {
+          "label": "Typescript"
+        },
+        {
+          "label": "Spring Boot"
+        },
+        {
+          "label": "Git"
+        },
+        {
+          "label": "GitHub"
+        },
+        {
+          "label": "Docker"
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Gradus",
+      "url": "https://gradus-self.vercel.app",
+      "technologies": [
+        {
+          "label": "Angular"
+        },
+        {
+          "label": "TypeScript"
+        },
+        {
+          "label": "Tailwind"
+        },
+        {
+          "label": "Python"
+        },
+        {
+          "label": "FastAPI"
+        },
+        {
+          "label": "SQLite"
+        },
+        {
+          "label": "Bun"
+        },
+        {
+          "label": "MCP"
+        },
+        {
+          "label": "Zod"
+        },
+        {
+          "label": "Vitest"
+        },
+        {
+          "label": "Biome"
+        },
+        {
+          "label": "Vercel"
+        }
+      ]
+    },
+    {
+      "name": "NULLPUNKT",
+      "url": "https://edugym-navy.vercel.app",
+      "technologies": [
+        {
+          "label": "Angular"
+        },
+        {
+          "label": "TypeScript"
+        },
+        {
+          "label": "Bun"
+        },
+        {
+          "label": "Elysia"
+        },
+        {
+          "label": "WebSockets"
+        },
+        {
+          "label": "Three.js"
+        },
+        {
+          "label": "Supabase"
+        },
+        {
+          "label": "PostgreSQL"
+        },
+        {
+          "label": "Drizzle"
+        },
+        {
+          "label": "Playwright"
+        },
+        {
+          "label": "Vitest"
+        },
+        {
+          "label": "Vercel"
+        }
+      ]
+    },
+    {
+      "name": "zeitiv.dev",
+      "url": "https://zeitiv.dev",
+      "technologies": [
+        {
+          "label": "Astro"
+        },
+        {
+          "label": "Angular"
+        },
+        {
+          "label": "UnoCSS"
+        },
+        {
+          "label": "TypeScript"
+        }
+      ]
+    },
+    {
+      "name": "lustlaune.ch",
+      "url": "https://lustlaune.ch",
+      "technologies": [
+        {
+          "label": "Astro"
+        },
+        {
+          "label": "Tailwind"
+        },
+        {
+          "label": "Three.js"
+        },
+        {
+          "label": "TypeScript"
+        }
+      ]
+    },
+    {
+      "name": "Lula Dice",
+      "url": "https://github.com/zeitiv/luladice",
+      "technologies": [
+        {
+          "label": "Svelte"
+        },
+        {
+          "label": "TypeScript"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "topic": "Frameworks",
+      "skills": [
+        "Angular",
+        "React",
+        "NextJS",
+        "Astro",
+        "React Router"
+      ]
+    },
+    {
+      "topic": "Backend",
+      "skills": [
+        "Node.js",
+        "tRPC",
+        "Zod"
+      ]
+    },
+    {
+      "topic": "Cloud & Database",
+      "skills": [
+        "AWS",
+        "PostgreSQL",
+        "Prisma",
+        "Redis"
+      ]
+    },
+    {
+      "topic": "CMS",
+      "skills": [
+        "Strapi",
+        "Ghost"
+      ]
+    },
+    {
+      "topic": "Styling",
+      "skills": [
+        "Tailwind",
+        "SCSS",
+        "Angular Material",
+        "UnoCSS"
+      ]
+    },
+    {
+      "topic": "Languages",
+      "skills": [
+        "TypeScript",
+        "JavaScript"
+      ]
+    },
+    {
+      "topic": "Testing",
+      "skills": [
+        "Cypress",
+        "Playwright"
+      ]
+    },
+    {
+      "topic": "DevOps",
+      "skills": [
+        "Docker",
+        "GitHub Actions",
+        "n8n",
+        "Portainer",
+        "Bitbucket",
+        "GitHub"
+      ]
+    },
+    {
+      "topic": "API",
+      "skills": [
+        "OpenAPI (Elements)"
+      ]
+    }
+  ]
+}
