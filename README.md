@@ -16,7 +16,7 @@ Fullstack developer in Zürich. I started at 16 as an apprentice at Swisscom, co
 **[zeitiv.dev](https://zeitiv.dev)** · my CV as a website, with my actual stack drawn as a galaxy in the background. Self-hosted: Docker + Nginx, deployed through GHCR and Portainer.
 <sub>Astro · three.js · UnoCSS · Bun</sub>
 
-**[LustLaune](https://lustlaune.ch)** · the website and server for LustLaune, a rave collective, which I look after.
+**[LustLaune](https://lustlaune.ch)** · a rave collective. I look after its website and server.
 <sub>Astro · Astro DB · MDX</sub>
 
 ### At work
