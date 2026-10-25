@@ -1,29 +1,5 @@
-<a href="https://www.github.com/zeitiv" target="_blank" rel="noreferrer">
-  <img src="https://img.shields.io/github/followers/zeitiv?logo=github&style=for-the-badge&color=0891b2&labelColor=1c1917" />
-</a>
+<a href="https://zeitiv.dev"><img src="assets/galaxy.svg" alt="My stack as a galaxy: every place I worked or built something is a star, the tools I used there orbit it" width="100%"></a>
 
-### Socials
+Hi, I'm Alex, a fullstack developer in Zürich. I've been writing code since I was 16, starting as an apprentice at Swisscom, and I work on Amazon's Lens team, mostly React and TypeScript. That's on pause while I do my civil service. Outside work I build things for classrooms and run a small homelab.
 
-<p align="left">
-  <a href="https://www.github.com/zeitiv" target="_blank" rel="noreferrer">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" />
-      <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" />
-    </picture>
-  </a>
-  <a href="https://lustlaune.ch/rss" target="_blank" rel="noreferrer">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/rss-dark.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/rss.svg" />
-      <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/rss.svg" width="32" height="32" />
-    </picture>
-  </a>
-</p>
-
-<a href="https://github.com/zeitiv" align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zeitiv&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" />
-</a>
-<a href="http://www.github.com/zeitiv">
-  <img src="https://github-readme-stats.vercel.app/api?username=zeitiv&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="zeitiv's GitHub stats" />
-</a>
+<sub>[zeitiv.dev](https://zeitiv.dev) · [LinkedIn](https://www.linkedin.com/in/alexander-gr%C3%A4del/)</sub>
